@@ -1,0 +1,14 @@
+ awk '{ print ">"NR"\n"$0 }'SARS_CoV_2.txt > SARS_CoV_2.fa
+ awk '{ print ">"NR"\n"$0 }'SARS_CoV.txt > SARS_CoV_AY536760.fa
+ awk '{ print ">"NR"\n"$0 }'SARS_CoV.txt > SARS_CoV_AY360146.fa
+ awk '{ print ">"NR"\n"$0 }'Bat_SARS_rp2.txt > Bat_SARS_rp2.fa
+ awk '{ print ">"NR"\n"$0 }'Bat_SARS_rp1.txt > Bat_SARS_rp1..fa
+ awk '{ print ">"NR"\n"$0 }'MERS_KJ782550.1.txt > MERS_KJ782550.fa
+ awk '{ print ">"NR"\n"$0 }'MERS_KY688115.1.txt > MERS_KY688115.fa
+ awk '{ print ">"NR"\n"$0 }'Rhino_strainA.txt > Rhino_strainA.fa
+ cat *header > nucleoclaspid_sequences.fa
+ 
+ 
+ 
+ 
+ 

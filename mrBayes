@@ -1,0 +1,3 @@
+mb -i../N_proteins/Nucleoclaspid_sequences.phylip
+cat Nucleoclaspid_sequences.con.tre
+>insert into figtree
